@@ -2,10 +2,10 @@
 
 Production-ready Python Flask microservice demonstrating cloud-native best practices with Kubernetes, Helm, and complete CI/CD automation.
 
-[![CI/CD](https://github.com/username/microservice-k8s-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/username/microservice-k8s-demo/actions/workflows/ci.yml)
-[![Security Scan](https://github.com/username/microservice-k8s-demo/actions/workflows/security.yml/badge.svg)](https://github.com/username/microservice-k8s-demo/actions/workflows/security.yml)
+[![CI](https://github.com/arazghf-star/microservice-k8s-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/arazghf-star/microservice-k8s-demo/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/docker-multi--stage-blue.svg)](./Dockerfile)
-[![Kubernetes](https://img.shields.io/badge/kubernetes-1.28-326CE5.svg)](./helm/microservice)
+[![Flask](https://img.shields.io/badge/flask-3.0-green.svg)](https://flask.palletsprojects.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 📋 Overview
