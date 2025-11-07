@@ -3,8 +3,10 @@ Unit tests for Flask microservice
 Tests all endpoints including health checks and API routes
 """
 
-import pytest
 import json
+
+import pytest
+
 from app.main import app
 
 

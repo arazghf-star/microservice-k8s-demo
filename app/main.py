@@ -3,11 +3,12 @@ Main Flask Application
 Production-ready microservice with health checks and API endpoints
 """
 
-from flask import Flask, jsonify, request
-from datetime import datetime
 import logging
 import os
 import time
+from datetime import datetime
+
+from flask import Flask, jsonify, request
 
 # Configure logging
 logging.basicConfig(
