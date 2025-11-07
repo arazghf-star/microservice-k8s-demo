@@ -73,6 +73,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: false
+          load: true
           tags: microservice-k8s-demo:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
