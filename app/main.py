@@ -108,7 +108,7 @@ def api_status():
 @app.route('/api/v1/echo', methods=['POST'])
 def api_echo():
     """Echo endpoint - returns what was sent"""
-    data = request.get_json()
+    data = request.get_json(silent=True)
     
     if not data:
         return jsonify({
